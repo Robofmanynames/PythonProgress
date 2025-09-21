@@ -1,3 +1,23 @@
+## If you want two arguments to be met, use the "and" operator
+## the "and" logical operator has a few ways to check for accuracy:
+## True and True = true
+## False and True = False
+## True and False = False
+
+
+## If you want only one of your conditions to be met, you can use "Or"
+## A and B = True
+## A or B = True
+## The only time you get a "False" reply with or, is if both arguments
+## are wrong and do no match what you are trying to determine
+
+
+## The "not" operator is primarily based on changing the result of an
+## argument to the opposite. False becomes True, True becomes False
+
+
+
+
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 bill = 0
