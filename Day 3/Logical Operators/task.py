@@ -8,15 +8,15 @@
 ## If you want only one of your conditions to be met, you can use "Or"
 ## A and B = True
 ## A or B = True
-## The only time you get a "False" reply with or, is if both arguments
+## The only time you get a "False" reply with OR, is if both arguments
 ## are wrong and do no match what you are trying to determine
 
 
 ## The "not" operator is primarily based on changing the result of an
 ## argument to the opposite. False becomes True, True becomes False
 
-
-
+## If you want to print multiple lines of text, like a picture or paragraph
+## you can use 3 single quotes at the start and end '''
 
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
@@ -31,6 +31,9 @@ if height >= 120:
     elif age <= 18:
         bill = 7
         print("Youth tickets are $7.")
+    elif age >= 45 and age <= 55:
+        ## a shorthand way to do this is: elif 45 <= age <= 55
+        print("Everything is going to be okay. Have a free ride on us!")
     else:
         bill = 12
         print("Adult tickets are $12.")
